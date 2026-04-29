@@ -2463,7 +2463,7 @@ impl<'a> UserModel<'a> {
 
     /// validates a new defined name
     pub fn is_valid_defined_name(
-        &self,
+        &mut self,
         name: &str,
         scope: Option<u32>,
         formula: &str,
